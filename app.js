@@ -10,6 +10,7 @@ const port = parseInt(process.env.PORT || 3000)
 const parkRoutes = require('./routes/parkRoutes')
 const trailRoutes = require('./routes/trailRoutes') 
 const trailheadRoutes = require('./routes/trailheadRoutes') 
+const galleryRoutes = require('./routes/galleryRoutes')
 
 
 app.use(bodyParser.json())
@@ -26,13 +27,16 @@ app.get('/', (req, res, next) =>{
   res.json({
     parks: `http://localhost:${port}/park`,
     trails: `http://localhost:${port}/trail`,
-    trailheads: `http://localhost:${port}/trailhead`
+    trailheads: `http://localhost:${port}/trailhead`,
+    gallery: `http://localhost:${port}/gallery`
   })
 })
 
 app.use('/park', parkRoutes)
 app.use('/trail', trailRoutes)
 app.use('/trailhead', trailheadRoutes)
+app.use('/gallery', galleryRoutes)
+
 
 // The following 2 `app.use`'s MUST follow ALL your routes/middleware
 app.use(notFound)
