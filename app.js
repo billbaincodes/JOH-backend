@@ -1,12 +1,16 @@
 // From Dan's Guides: https://github.com/justsml/guides/tree/master/express/setup-guide
 // TODO: INSTALL PRE-REQS:
 //  npm install express cors body-parser morgan nodemon
-const express     = require('express')
-const bodyParser  = require('body-parser')
-const morgan      = require('morgan')
-const cors        = require('cors')
-const app         = module.exports = express()
-const port        = parseInt(process.env.PORT || 3000)
+const express = require('express')
+const bodyParser = require('body-parser')
+const morgan = require('morgan')
+const cors = require('cors')
+const app = module.exports = express()
+const port = parseInt(process.env.PORT || 3000)
+const parkRoutes = require('./routes/parkRoutes')
+const trailRoutes = require('./routes/trailRoutes') 
+const trailheadRoutes = require('./routes/trailheadRoutes') 
+
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -19,8 +23,16 @@ app.use(cors({origin: true, credentials: true})) // <= Disable if you don't need
 // Example: app.use('/api/cat', require('./routes/cat'))
 
 app.get('/', (req, res, next) =>{
-  res.json("Template from Dan's Guides: https://github.com/justsml/guides/tree/master/express/setup-guide")
+  res.json({
+    parks: `http://localhost:${port}/park`,
+    trails: `http://localhost:${port}/trail`,
+    trailheads: `http://localhost:${port}/trailhead`
+  })
 })
+
+app.use('/park', parkRoutes)
+app.use('/trail', trailRoutes)
+app.use('/trailhead', trailheadRoutes)
 
 // The following 2 `app.use`'s MUST follow ALL your routes/middleware
 app.use(notFound)
