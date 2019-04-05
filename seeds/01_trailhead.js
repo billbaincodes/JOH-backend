@@ -8,7 +8,12 @@ exports.seed = function(knex, Promise) {
       return knex("trailhead").insert([
         {
           id: 1,
-          name: "Hessie",
+          name: "Herman Gulch",
+          imgURL: "trailhad.com"
+        },
+        {
+          id: 2,
+          name: "Bear Lake",
           imgURL: "trailhad.com"
         }
       ]);

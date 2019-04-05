@@ -8,7 +8,12 @@ exports.seed = function(knex, Promise) {
       return knex("park").insert([
         {
           id: 1,
-          name: "Roosevelt National Forest",
+          name: "Arapaho National Forest",
+          imgURL: "park.com"
+        },
+        {
+          id: 2,
+          name: "Rocky Mountain National Park",
           imgURL: "park.com"
         }
       ]);

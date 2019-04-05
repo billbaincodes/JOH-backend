@@ -12,6 +12,7 @@ exports.up = function(knex, Promise) {
       .references("trailhead.id")
       .unsigned()
       .onDelete("cascade");
+    table.string("description", 5000);
     table.float("distance");
     table.float("elevation");
     table.boolean("river");
@@ -21,6 +22,7 @@ exports.up = function(knex, Promise) {
     table.boolean("waterfall");
     table.boolean("redrock");
     table.float("price");
+    table.string("thumbURL");
   });
 };
 
