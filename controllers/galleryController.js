@@ -6,6 +6,15 @@ const getAll = (req, res, next) => {
   .then(gallery => res.json({ gallery : gallery }))
 }
 
+const getByTrail = (req, res, next) => {
+  let id = req.params.id
+
+  knex.select('*').from('gallery').where('trail_id', id)
+  .then(gallery => res.json({ gallery : gallery }))
+
+}
+
 module.exports = {
-  getAll
+  getAll,
+  getByTrail
 }
