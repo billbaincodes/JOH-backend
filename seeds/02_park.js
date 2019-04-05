@@ -9,12 +9,12 @@ exports.seed = function(knex, Promise) {
         {
           id: 1,
           name: "Arapaho National Forest",
-          imgURL: "park.com"
+          parkImg: "park.com"
         },
         {
           id: 2,
           name: "Rocky Mountain National Park",
-          imgURL: "park.com"
+          parkImg: "park.com"
         }
       ]);
     });

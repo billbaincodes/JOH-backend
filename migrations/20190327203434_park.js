@@ -2,7 +2,7 @@ exports.up = function(knex, Promise) {
   return knex.schema.createTable("park", function(table) {
     table.increments();
     table.string("name");
-    table.string("imgURL");
+    table.string("parkImg");
   });
 };
 
