@@ -59,8 +59,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 4,
           name: "Paint Mines",
-          park_id: 1,
-          trailhead_id: 3,
+          park_id: 3,
+          trailhead_id: 4,
           description: `Evoking the sedimentary hills of Badlands National Park, the Paint Mines offer an incredibly unique hiking experience. The variety of rock formations as well as distinct coloring make this hike a hidden gem. The trail starts in unassuming hillside, before revealing the bizarre and alien formations that define the experience. Despite it being the only comparable geographic feature for hundreds of miles, the Paint Mines does not see a large amount of foot traffic. I arrived at around 8:45am to only one other car in the parking lot and only saw a handful of other hikers during my entire visit. The combination of easy access, non-existent crowds and truly one of a kind features make this hike an easy recommendation.`,
           distance: 3.03,
           elevation: 314,
