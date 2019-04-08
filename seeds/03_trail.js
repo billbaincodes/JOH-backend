@@ -54,7 +54,7 @@ exports.seed = function(knex, Promise) {
           waterfall: false,
           redrock: false,
           price: 0,
-          thumbURL: "https://i.imgur.com/mDQK9Lr.jpg"
+          thumbURL: "https://i.imgur.com/Ip5evxj.jpg"
         }
       ]);
     });

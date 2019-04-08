@@ -34,7 +34,22 @@ exports.seed = function(knex, Promise) {
         {
           id: 6,
           trail_id: 2,
+          imgURL: "https://i.imgur.com/uTPSefu.jpg"
+        },
+        {
+          id: 7,
+          trail_id: 3,
+          imgURL: "https://i.imgur.com/OU4SIUD.jpg"
+        },
+        {
+          id: 8,
+          trail_id: 3,
           imgURL: "https://i.imgur.com/DEsJamW.jpg"
+        },
+        {
+          id: 9,
+          trail_id: 3,
+          imgURL: "https://i.imgur.com/c2U2SOP.jpg"
         }
       ]);
     });
