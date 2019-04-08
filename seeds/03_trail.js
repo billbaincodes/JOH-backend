@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 3,
-          name: "Broome Hut / Second Creek",
+          name: "Broome Hut",
           park_id: 1,
           trailhead_id: 3,
           description: `Broome Hut, also called Second Creek Trail, is a short, steep and beautiful hike located in Arapaho National Forest. The hike starts at the Second Creek Trailhead, near mile marker 240 on I-40 going through Berthoud Pass. Parking is limited, but available directly off of I-40 so this trail is highly accessible to most vehicles, even in some winter months. Beginning in a dense pine forest, you will rapidly ascend beyond the tree line and will quickly be able to enjoy incredible mountain views in every direction. You’ll also be treated to some wildflowers during spring/summer, but I think overlooking the snowy basin simply can not be beat. Once you reach the Hut, which is open to public use during the day, you have a chance to rest, warm up and use a public bathroom. You can even stay the night if you make appropriate reservations. The Hut acts as a nexus for a few other nearby trails in case you want to keep exploring, or even make your way to Winter Park.`,
