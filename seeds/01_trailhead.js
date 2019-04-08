@@ -20,6 +20,11 @@ exports.seed = function(knex, Promise) {
           id: 3,
           name: "Second Creek",
           trailheadImg: "second creek pic"
+        },
+        {
+          id: 4,
+          name: "Paint Mines Interpretive Park",
+          trailheadImg: "paint mines"
         }
       ]);
     });

@@ -44,12 +44,32 @@ exports.seed = function(knex, Promise) {
         {
           id: 8,
           trail_id: 3,
-          imgURL: "https://i.imgur.com/uTPSefu.jpg"
+          imgURL: "https://i.imgur.com/Ip5evxj.jpg"
         },
         {
           id: 9,
           trail_id: 3,
           imgURL: "https://i.imgur.com/c2U2SOP.jpg"
+        },
+        {
+          id: 10,
+          trail_id: 4,
+          imgURL: "https://i.imgur.com/pRD2qwO.jpg"
+        },
+        {
+          id: 11,
+          trail_id: 4,
+          imgURL: "https://i.imgur.com/bR8dr1Q.jpg"
+        },
+        {
+          id: 12,
+          trail_id: 4,
+          imgURL: "https://i.imgur.com/pRD2qwO.jpg"
+        },
+        {
+          id: 13,
+          trail_id: 4,
+          imgURL: "https://i.imgur.com/ZQugPMl.jpg"
         }
       ]);
     });

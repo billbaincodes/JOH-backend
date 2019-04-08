@@ -54,8 +54,25 @@ exports.seed = function(knex, Promise) {
           waterfall: false,
           redrock: false,
           price: 0,
-          thumbURL: "https://i.imgur.com/Ip5evxj.jpg"
-        }
+          thumbURL: "https://i.imgur.com/uTPSefu.jpg"
+        },
+        {
+          id: 4,
+          name: "",
+          park_id: 1,
+          trailhead_id: 3,
+          description: `Evoking the sedimentary hills of Badlands National Park, the Paint Mines offer an incredibly unique hiking experience. The variety of rock formations as well as distinct coloring make this hike a hidden gem. The trail starts in unassuming hillside, before revealing the bizarre and alien formations that define the experience. Despite it being the only comparable geographic feature for hundreds of miles, the Paint Mines does not see a large amount of foot traffic. I arrived at around 8:45am to only one other car in the parking lot and only saw a handful of other hikers during my entire visit. The combination of easy access, non-existent crowds and truly one of a kind features make this hike an easy recommendation.`,
+          distance: 3.03,
+          elevation: 314,
+          lake: false,
+          river: false,
+          mtn: false,
+          flower: false,
+          waterfall: false,
+          redrock: true,
+          price: 0,
+          thumbURL: "https://i.imgur.com/OGA5Vih.jpg"
+        },
       ]);
     });
 };

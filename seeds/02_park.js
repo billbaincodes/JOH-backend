@@ -16,6 +16,11 @@ exports.seed = function(knex, Promise) {
           name: "Rocky Mountain National Park",
           parkImg: "park.com"
         },
+        {
+          id:3,
+          name:"Paint Mines Interpretive Park",
+          parkImg:"park.com"
+        }
       ]);
     });
 };
