@@ -15,7 +15,7 @@ exports.seed = function(knex, Promise) {
           id: 2,
           name: "Rocky Mountain National Park",
           parkImg: "park.com"
-        }
+        },
       ]);
     });
 };

@@ -9,12 +9,17 @@ exports.seed = function(knex, Promise) {
         {
           id: 1,
           name: "Herman Gulch",
-          trailheadImg: "trailhead.com"
+          trailheadImg: "herman gulch pic"
         },
         {
           id: 2,
           name: "Bear Lake",
-          trailheadImg: "trailhead.com"
+          trailheadImg: "bearlake pic"
+        },
+        {
+          id: 3,
+          name: "Second Creek",
+          trailheadImg: "second creek pic"
         }
       ]);
     });
