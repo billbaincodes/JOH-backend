@@ -24,6 +24,11 @@ app.use(cors({origin: true, credentials: true})) // <= Disable if you don't need
 // Example: app.use('/api/cat', require('./routes/cat'))
 
 app.get('/', (req, res, next) =>{
+
+  process.env.NODE_ENV === 'production' ?
+  res.send("Production") 
+  
+  :
   res.json({
     parks: `http://localhost:${port}/park`,
     trails: `http://localhost:${port}/trail`,
