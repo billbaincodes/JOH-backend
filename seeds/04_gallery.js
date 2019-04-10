@@ -54,7 +54,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 10,
           trail_id: 4,
-          imgURL: "https://i.imgur.com/pRD2qwO.jpg"
+          imgURL: "https://i.imgur.com/DCSBrZE.jpg"
         },
         {
           id: 11,

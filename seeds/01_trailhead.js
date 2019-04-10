@@ -25,6 +25,11 @@ exports.seed = function(knex, Promise) {
           id: 4,
           name: "Paint Mines Interpretive Park",
           trailheadImg: "paint mines"
+        },
+        {
+          id: 5,
+          name: "Sprague Lake",
+          trailheadImg: "Splake"
         }
       ]);
     });
