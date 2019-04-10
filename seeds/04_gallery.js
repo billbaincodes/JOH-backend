@@ -70,6 +70,11 @@ exports.seed = function(knex, Promise) {
           id: 13,
           trail_id: 4,
           imgURL: "https://i.imgur.com/ZQugPMl.jpg"
+        },
+        {
+          id: 14,
+          trail_id: 5,
+          imgURL: "https://i.imgur.com/7NO0HBD.jpg"
         }
       ]);
     });
