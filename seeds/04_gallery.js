@@ -75,6 +75,16 @@ exports.seed = function(knex, Promise) {
           id: 14,
           trail_id: 5,
           imgURL: "https://i.imgur.com/7NO0HBD.jpg"
+        },
+        {
+          id: 15,
+          trail_id: 5,
+          imgURL: "https://i.imgur.com/WSpCQj8.jpg"
+        },
+        {
+          id: 16,
+          trail_id: 5,
+          imgURL: "https://i.imgur.com/HCFOnsV.jpg"
         }
       ]);
     });

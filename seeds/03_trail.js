@@ -79,7 +79,7 @@ exports.seed = function(knex, Promise) {
           park_id: 2,
           trailhead_id: 5,
           description: `Located off the ever popular Bear Lake road of Rocky Mountain National Park, Sprague Lake provides gorgeous views on a highly manicured trail with very little elevation gain. The trail around the lake is even wheelchair accessible and contains multiple bridge and boardwalks along the route. Since the hike around Sprague Lake itself isn’t very long, I’d highly encourage visitors to incorporate the other surrounding trails to add a little more distance and variety. Since Sprague Lake is a popular destination and parking is limited, consider parking at the nearby stables. There are a few spots open to visitors and the stables are less than a mile away from Sprague Lake itself.`,
-          distance: 1.0,
+          distance: 1.3,
           elevation: 89,
           lake: true,
           river: false,
@@ -87,7 +87,7 @@ exports.seed = function(knex, Promise) {
           flower: false,
           waterfall: false,
           redrock: false,
-          price: 0,
+          price: 35,
           thumbURL: "https://i.imgur.com/N5hCYcR.jpg"
         }
       ]);
